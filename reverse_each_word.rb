@@ -5,5 +5,5 @@ def  reverse_each_word(str)
     #word += s.split('').reverse().join('') + delimiter
   #end
   #return word
-  str.split(' ').collect {}.join(" ")
+  str.split(' ').collect {|s| }.join(" ")
 end
